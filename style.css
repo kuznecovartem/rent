@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul>li {
+    list-style: none;
+}
+
+h1 {
+    margin: 0;
+}
+
+.rent {
+    background-color: #0c0f12;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.text {
+    color: #ecd774;
+}
+
+.text-2 {
+    color: white;
+}
+
+.rent-terms {
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.rent-terms__item {
+    margin-right: 50px;
+}
+
+.rent-terms__item:last-child {
+    margin-right: 0px;
+}
+
+.rent-terms__img {
+    transform: translateX(250);
+}
+
+.rent-terms__desc {
+    color: white;
+}
+
+.btn__block {}
+
+.btn {
+    background-color: #f3e082;
+    border: 1px solid #b99f1b;
+    border-radius: 5px;
+    padding: 8px 16px;
+    box-shadow: 0px 0px 20px 6px #bfa72b;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    background-color: #958015;
+    box-shadow: 0px 0px 15px 5px #937f18;
+}
